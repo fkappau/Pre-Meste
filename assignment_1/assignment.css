@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    
 }
 header{
     display: flex;
@@ -8,6 +9,15 @@ header{
     background-color: rgba(10, 224, 231, 0.911);
     flex: 0.7;
     align-items: center;
+    
+}
+h1{
+   
+    font-style: normal;
+    font-size: 30PX;
+    /* color: darkkhaki; */
+    color: darkslateblue;
+
 }
 
 
@@ -26,19 +36,35 @@ h2{
     height: 50vh;
     background: cadetblue;
     display: flex;
+    color: tan;
     
+}
+h2 p button{
+    padding: 20;
+    border-radius: 20px;
+    color: thistle;
 }
 p{
     flex: 0.7;
+    overflow: hidden;
+    padding: 10px;
+    text-decoration-style: ;
 }
 img{
     flex: 0.3;
 }
 .link li{
     margin-left: 20px;
+    color: tomato;
+}
+.link li :hover{
+    background-color: slateblue;
 }
 .link li  button{
-    padding: 15px;
+    
     font-style: italic;
-    pa
+    padding: 20;
+    border-radius: 20px;
+   color: violet;
+   
 }
