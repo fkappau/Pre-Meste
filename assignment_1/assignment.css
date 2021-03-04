@@ -7,6 +7,7 @@ header{
     height: 10vh;
     background-color: cornsilk;
     flex: 0.7;
+    align-items: center;
 }
 h1{
     align-content: center;
@@ -19,15 +20,12 @@ h1{
     display: flex;
     margin-right: 10px;
     /* word-spacing: 10px; */
-    line-break: normal;
     flex: 0.3;
-    flex-direction: row;
-    justify-content: space-evenly;
-   
 }
-firstlist{
-    background-color: darkcyan;
+.linkl li{
+    margin-right: 10px;
 }
+
 
 h2{
     height: 50vh;
