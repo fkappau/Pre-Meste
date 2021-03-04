@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: cornsilk;
+    flex: 0.7;
+}
+h1{
+    align-content: center;
+    
+}
+
+.link{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+    /* word-spacing: 10px; */
+    line-break: normal;
+    flex: 0.3;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+firstlist{
+    background-color: darkcyan;
+}
+
+h2{
+    height: 50vh;
+    background: cadetblue;
+    display: flex;
+    
+}
+p{
+    flex: 0.7;
+}
+img{
+    flex: 0.3;
+}
