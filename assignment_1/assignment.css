@@ -5,14 +5,11 @@ header{
     display: flex;
     justify-content: space-between;
     height: 10vh;
-    background-color: cornsilk;
+    background-color: rgba(10, 224, 231, 0.911);
     flex: 0.7;
     align-items: center;
 }
-h1{
-    align-content: center;
-    
-}
+
 
 .link{
     list-style: none;
@@ -22,9 +19,7 @@ h1{
     /* word-spacing: 10px; */
     flex: 0.3;
 }
-.linkl li{
-    margin-right: 10px;
-}
+
 
 
 h2{
@@ -38,4 +33,12 @@ p{
 }
 img{
     flex: 0.3;
+}
+.link li{
+    margin-left: 20px;
+}
+.link li  button{
+    padding: 15px;
+    font-style: italic;
+    pa
 }
