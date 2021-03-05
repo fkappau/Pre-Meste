@@ -43,12 +43,13 @@ h2 p button{
     padding: 20;
     border-radius: 20px;
     color: thistle;
+    margin-top: 60px;
 }
 p{
     flex: 0.7;
     overflow: hidden;
     padding: 10px;
-    text-decoration-style: ;
+    
 }
 img{
     flex: 0.3;
@@ -67,4 +68,7 @@ img{
     border-radius: 20px;
    color: violet;
    
+}
+.bannerspan{
+    color: red;
 }
